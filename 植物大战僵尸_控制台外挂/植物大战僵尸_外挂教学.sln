@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "植物大战僵尸_控制台外挂", "植物大战僵尸_控制台外挂.vcxproj", "{A6CE3320-139F-483F-9B39-30C95C624861}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "基于基址的修改阳光", "..\基于基址的修改阳光\基于基址的修改阳光.vcxproj", "{46FE78C1-DC27-4CFF-AD8B-CA59B4ECF9E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6CE3320-139F-483F-9B39-30C95C624861}.Debug|x64.ActiveCfg = Debug|x64
+		{A6CE3320-139F-483F-9B39-30C95C624861}.Debug|x64.Build.0 = Debug|x64
+		{A6CE3320-139F-483F-9B39-30C95C624861}.Debug|x86.ActiveCfg = Debug|Win32
+		{A6CE3320-139F-483F-9B39-30C95C624861}.Debug|x86.Build.0 = Debug|Win32
+		{A6CE3320-139F-483F-9B39-30C95C624861}.Release|x64.ActiveCfg = Release|x64
+		{A6CE3320-139F-483F-9B39-30C95C624861}.Release|x64.Build.0 = Release|x64
+		{A6CE3320-139F-483F-9B39-30C95C624861}.Release|x86.ActiveCfg = Release|Win32
+		{A6CE3320-139F-483F-9B39-30C95C624861}.Release|x86.Build.0 = Release|Win32
+		{46FE78C1-DC27-4CFF-AD8B-CA59B4ECF9E0}.Debug|x64.ActiveCfg = Debug|x64
+		{46FE78C1-DC27-4CFF-AD8B-CA59B4ECF9E0}.Debug|x64.Build.0 = Debug|x64
+		{46FE78C1-DC27-4CFF-AD8B-CA59B4ECF9E0}.Debug|x86.ActiveCfg = Debug|Win32
+		{46FE78C1-DC27-4CFF-AD8B-CA59B4ECF9E0}.Debug|x86.Build.0 = Debug|Win32
+		{46FE78C1-DC27-4CFF-AD8B-CA59B4ECF9E0}.Release|x64.ActiveCfg = Release|x64
+		{46FE78C1-DC27-4CFF-AD8B-CA59B4ECF9E0}.Release|x64.Build.0 = Release|x64
+		{46FE78C1-DC27-4CFF-AD8B-CA59B4ECF9E0}.Release|x86.ActiveCfg = Release|Win32
+		{46FE78C1-DC27-4CFF-AD8B-CA59B4ECF9E0}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7ACF74FC-DB76-43E3-878F-D8FC69C9B437}
+	EndGlobalSection
+EndGlobal

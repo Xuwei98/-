@@ -1,0 +1,49 @@
+
+
+0048728C - 83 47 24 01 - add dword ptr [edi+24],01
+
+00488E14 - 89 48 24  - mov [eax+24],ecx
+0040CDDB - 8B 40 24  - mov eax,[eax+24]
+004123AC - 89 41 24  - mov [ecx+24],eax
+00410AC1 - 8B 42 24  - mov eax,[edx+24]
+
+00410A91 | 8B40 28 | mov eax,dword ptrds:[eax+28] |
+
+00410A91 - 8B 40 28  - mov eax,[eax+28] 
+
+push edx 				edx=-1							edx = -1
+push eax				eax = 	7						eax = 7	  植物序号
+mov eax, dword ptr ds:[eax+28] eax = 0					eax = 1	  x轴
+push edi	edi = 1										edi = 1	  y轴
+push ebp	ebp = 0019FB6C								ebp = 0019FB6C
+以左上角为坐标轴
+左上角第一个(0,0)
+
+-------------------------------
+add eax,[edx+00005560]
+EAX=00000019
+EBX=00000001
+ECX=FFFFFFFF
+EDX=14676200
+
+mov esi,[edi+00000768]
+ESI=14676200
+EDI=02941688
+ESP=0019FC60
+
+mov ecx,[PlantsVsZombies.exe+2A9EC0] [006A9EC0]
+ECX=02941688
+
+
+0041A3BB - 8B 41 28  - mov eax,[ecx+28] 
+EAX=0000000F
+EBX=1295D7F0
+ECX=0BF8C768
+
+0040EB41 - 8B 88 2C080000  - mov ecx,[eax+0000082C]
+EAX=029B1688
+EBX=00000000
+ECX=0BF8C768
+
+0x006A9EC0
+
